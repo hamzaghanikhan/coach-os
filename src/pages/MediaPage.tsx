@@ -229,39 +229,19 @@ export default function MediaPage() {
               </div>
 
               <div
-                className="bg-surface-2/40 border border-white/[0.05] rounded-2xl p-6 md:p-8"
+                className="bg-surface-2/40 border border-white/[0.05] rounded-2xl p-6 md:p-8 flex flex-col items-start gap-5"
                 style={{ boxShadow: '0 4px 32px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.04)' }}
               >
-                <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
-                  <div>
-                    <label className="block text-[12px] text-secondary/50 mb-2">Your name</label>
-                    <input
-                      type="text"
-                      className="w-full h-11 md:h-10 bg-white/[0.04] border border-white/[0.07] rounded-xl md:rounded-lg px-4 md:px-3 text-[14px] md:text-[13px] text-white placeholder-white/20 focus:outline-none focus:border-white/20 transition-colors"
-                      placeholder="Ahmed Al Rashid"
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-[12px] text-secondary/50 mb-2">Email or WhatsApp</label>
-                    <input
-                      type="text"
-                      className="w-full h-11 md:h-10 bg-white/[0.04] border border-white/[0.07] rounded-xl md:rounded-lg px-4 md:px-3 text-[14px] md:text-[13px] text-white placeholder-white/20 focus:outline-none focus:border-white/20 transition-colors"
-                      placeholder="+971 50 000 0000"
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-[12px] text-secondary/50 mb-2">What do you need most?</label>
-                    <textarea
-                      rows={3}
-                      className="w-full bg-white/[0.04] border border-white/[0.07] rounded-xl md:rounded-lg px-4 md:px-3 py-3 md:py-2.5 text-[14px] md:text-[13px] text-white placeholder-white/20 focus:outline-none focus:border-white/20 transition-colors resize-none"
-                      placeholder="Reels for Instagram, course videos, branding..."
-                    />
-                  </div>
-                  <button type="submit" className="btn-primary w-full justify-center h-11 text-[14px] font-semibold">
-                    Book a shoot
-                    <ArrowRight className="w-4 h-4" />
-                  </button>
-                </form>
+                <p className="text-[14px] md:text-[15px] text-text-secondary/80 leading-[1.7]">
+                  Email us to book your shoot. We'll schedule a 20-min strategy call to plan your production day.
+                </p>
+                <a
+                  href="mailto:info@aekstudio.ae"
+                  className="btn-primary w-full justify-center h-11 text-[14px] font-semibold"
+                >
+                  Book a shoot
+                  <ArrowRight className="w-4 h-4" />
+                </a>
               </div>
             </div>
           </div>
