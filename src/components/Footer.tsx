@@ -60,7 +60,7 @@ export default function Footer() {
           <p className="text-[12px] text-secondary/30">
             A Product by{' '}
             <a
-              href="https://aekstudio.com"
+              href="https://aekstudio.ae"
               target="_blank"
               rel="noopener noreferrer"
               className="text-secondary/80 hover:text-primary transition-colors duration-300"
